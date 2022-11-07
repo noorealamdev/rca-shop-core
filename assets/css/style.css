@@ -1,0 +1,527 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+
+.tutor-review-individual-item .tutor-review-user-info {
+    padding-left: 10px !important;
+}
+
+.simple-footer {
+    margin-top: 70px;
+}
+
+/*Course loop items vertical space increase*/
+.edumall-grid .grid-item.animate {
+    padding-bottom: 0px;
+    display: block;
+}
+
+/*top image size*/
+.rca-shop-top-image img {
+    width: 100% !important;
+}
+
+/*single course top banner*/
+.rca-single-course-top-banner .banner-content {
+    text-align: center;
+    padding: 50px;
+}
+
+.rca-single-course-top-banner .banner-content .course-title {
+    color: #ffffff;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.rca-single-course-price .price {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.rca-single-course-price .price ins span {
+    color: #fff;
+    font-family: "Fjalla One", sans-serif;
+}
+
+.rca-single-course-price .price del span {
+    font-family: "Fjalla One", sans-serif;
+}
+
+.rca-single-course-price .course-price-badge {
+    color: #f4be4c;
+    font-size: 18px;
+}
+
+.rca-single-course-top-banner .banner-content .course-features {
+    padding-top: 30px;
+}
+
+.rca-single-course-top-banner .banner-content .course-features ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.rca-single-course-top-banner .banner-content .course-features ul li p {
+    display: grid;
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 230px;
+    max-width: 100%;
+    color: #8c8b8b;
+    margin: 0 auto;
+}
+
+.rca-single-course-top-banner .banner-content .course-features ul li {
+    margin: 0;
+}
+
+.rca-single-course-top-banner .banner-content .separate-line {
+    padding-bottom: 50px;
+    border-bottom: 2px solid #1f242a;
+    margin: 0 auto;
+    width: 550px;
+}
+
+.rca-single-course-top-banner .banner-content .course-features ul li span {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-top: 5px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.rca-single-course-top-banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+
+.rca-single-course-top-banner .banner-overlay {
+    background-color: #0f152a;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .rca-single-course-top-banner .banner-overlay {
+        background-color: rgba(6, 12, 34, 0.96);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .rca-single-course-top-banner {
+        background-size: cover;
+    }
+}
+
+.rca-single-course-top-banner .course-reviews {
+    padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .rca-single-course-top-banner .banner-content .course-features ul {
+        display: block;
+    }
+
+    .rca-single-course-top-banner .banner-content .course-features ul li {
+        margin-top: 20px;
+    }
+
+    .rca-single-course-top-banner .banner-content {
+        padding: 20px 0 20px 0;
+    }
+
+    .rca-single-course-top-banner .banner-content .separate-line {
+        width: 100%;
+    }
+
+    .rca-single-course-section .banner-content .course-title {
+        font-size: 20px;
+        width: 100% !important;
+        padding-bottom: 20px;
+        line-height: 30px;
+    }
+}
+
+.rca-single-course-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.rca-single-course-section .banner-content {
+    text-align: center;
+    padding: 50px;
+}
+
+@media (max-width: 768px) {
+    .rca-single-course-section .banner-content {
+        text-align: center;
+        padding: 20px 0 20px 0;
+    }
+}
+
+.rca-single-course-section .banner-content .course-title {
+    color: #ffffff;
+}
+
+.rca-single-course-price .price {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.rca-single-course-price .price ins span {
+    color: #fff;
+}
+
+.rca-single-course-price .course-price-badge {
+    color: #f4be4c;
+    font-size: 20px;
+    font-family: "Fjalla One", sans-serif;
+}
+
+.rca-single-course-section .banner-content .course-features {
+    padding-top: 50px;
+}
+
+.rca-single-course-section .banner-content .course-features ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.rca-single-course-section .banner-content .course-features ul li p {
+    display: grid;
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 230px;
+    max-width: 100%;
+    color: #8c8b8b;
+    margin: 0 auto;
+}
+
+.rca-single-course-section .banner-content .course-features ul li {
+    margin: 0;
+}
+
+.rca-single-course-section .banner-content .separate-line {
+    padding-bottom: 50px;
+    border-bottom: 2px solid #1f242a;
+    margin: 0 auto;
+    width: 550px;
+}
+
+.rca-single-course-section .banner-content .course-features ul li span {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-top: 5px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.rca-single-course-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.rca-single-course-section .banner-content .course-title {
+    padding-bottom: 20px;
+    width: 780px;
+    margin: 0 auto;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 32px;
+    line-height: 1.5em;
+}
+
+.rca-single-course-section
+.banner-content
+.course-add-to-cart
+.single_add_to_cart_button {
+    color: #031f42 !important;
+    border-color: #ffc221 !important;
+    background-color: #ffc221 !important;
+    line-height: 0;
+    height: 55px;
+    margin-top: 6px;
+    padding: 10px;
+}
+
+.rca-single-course-section
+.banner-content
+.course-add-to-cart
+.single_add_to_cart_button:hover {
+    color: #fff !important;
+    border-color: #0071dc !important;
+    background-color: #0071dc !important;
+}
+
+.rca-single-course-reviews {
+    padding-bottom: 80px;
+}
+
+.woocommerce-additional-fields h3 {
+    display: none;
+}
+
+.tutor-course-benefits-wrap .benefit-text {
+    text-transform: uppercase !important;
+}
+
+.tutor-course-benefits-wrap .benefit-icon {
+    font-size: 20px !important;
+}
+
+.tutor-course-benefits-wrap .tutor-segment-title {
+    font-family: "Fjalla One", sans-serif;
+    font-size: 22px !important;
+}
+
+.tutor-course-content-content h1, .tutor-course-content-content h2, .tutor-course-content-content h3, .tutor-course-content-content h4, .tutor-course-content-content h5 {
+    font-family: "Fjalla One", sans-serif;
+}
+
+.tutor-review-individual-item .tutor-review-user-info .review-name {
+    font-family: "Fjalla One", sans-serif;
+    letter-spacing: 2px;
+    font-size: 16px !important;
+    font-weight: 500;
+}
+
+.elementor-widget-tm-heading .heading-primary {
+    font-family: "Fjalla One", sans-serif !important;
+    font-weight: 500 !important;
+}
+
+.edumall-courses.style-grid-02 .course-loop-title {
+    font-size: 20px !important;
+    font-weight: 700;
+    min-height: 70px;
+}
+
+@media (max-width: 768px) {
+    .edumall-courses.style-grid-02 .course-loop-title {
+        font-size: 17px !important;
+        display: block;
+        min-height: 90px;
+    }
+
+    .tutor-course-purchase-box a {
+        margin-top: 0;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .course-loop-rating .tm-star-rating.style-01 {
+        width: 100%;
+    }
+
+    .course_sub_title {
+        width: 100% !important;
+    }
+}
+
+.tutor-course-lesson h5,
+.tutor-lesson-duration,
+.course-loop-rating .rating-count {
+    font-size: 16px !important;
+}
+
+.tutor-course-topics-contents .tutor-course-title h4 {
+    font-size: 17px !important;
+}
+
+.rca-decimals-separator {
+    font-size: 66.666667%;
+}
+
+.course_sub_title {
+    font-size: 28px;
+    line-height: 40px;
+    color: #fff;
+    padding-bottom: 30px;
+    width: 700px;
+    display: inline-block;
+}
+
+@media (min-width: 1025px) {
+    .edumall-grid .grid-item {
+        height: 550px !important;
+        width: 324px !important;
+    }
+
+    .course-loop-wrapper.edumall-box.edumall-tooltip {
+        padding: 30px 30px 0 0;
+    }
+
+    .course-loop-wrapper::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #ededed;
+        height: 94%;
+        width: 2px;
+    }
+
+    .course-loop-wrapper::after {
+        content: "";
+        position: absolute;
+        margin: 10px auto;
+        left: 0;
+        background: #ededed;
+        height: 2px;
+        width: 90%;
+    }
+
+    .swiper-wrapper .swiper-slide .course-loop-wrapper::after {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .course-loop-wrapper::after {
+        content: "";
+        position: absolute;
+        margin: 10px auto;
+        left: 0;
+        background: #ededed;
+        height: 2px;
+        width: 100%;
+    }
+}
+
+.single-instructor-wrap .instructor-bio {
+    display: block !important;
+    line-height: 28px;
+}
+
+.rca-custom-add-to-cart-button {
+    padding: 50px 0 50px 0;
+}
+
+.rca-custom-add-to-cart-button .action_button.add_to_cart {
+    background-color: #c99444 !important;
+    color: #fff !important;
+    border: none;
+    font-size: 30px !important;
+    font-weight: 600;
+    width: 400px;
+    margin: 0 auto;
+    min-height: 64px;
+    text-transform: uppercase;
+    display: inherit;
+    padding: 10px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .rca-custom-add-to-cart-button .action_button.add_to_cart {
+        width: auto;
+    }
+}
+
+.rca-start-course-button-loop-page {
+    padding: 6px;
+    width: 90%;
+    border-radius: 5px;
+}
+
+.tutor-course-lesson h5 {
+    font-family: Roboto, sans-serif;
+    font-weight: 700 !important;
+    letter-spacing: -.02rem;
+}
+
+.tutor-segment-title {
+    display: none;
+}
+
+.tutor-tabs-btn-group a:last-child {
+    display: none;
+}
+
+.tutor-tabs-btn-group a {
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+
+/*course loop images badge*/
+.banner_holder {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.sale_banner {
+    background: #a50202;
+    font-family: Work Sans, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    padding: 8px 12px;
+    text-align: center;
+    color: #fff;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+}
+
+.new_banner {
+    background-color: #e0bd89;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.new_banner {
+    background: #e0bd89;
+    font-family: Work Sans, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    padding: 8px 12px;
+    text-align: center;
+    color: #000;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+}
+
+@media (max-width: 768px) {
+    .sale_banner, .new_banner {
+        padding: 1px 8px;
+        font-size: 13px;
+    }
+
+    .carousel-cell {
+        height: 100%;
+    }
+    .flickity-viewport {
+        height: 160px !important;
+    }
+    .rca-slider .slider-image img {
+        height: 100%;
+    }
+}
+
+.single-lesson .sales__report {
+    display: none !important;
+}
